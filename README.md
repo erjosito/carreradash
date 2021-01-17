@@ -8,7 +8,7 @@ The architecture I went for is a server connected to the Carrera system via its 
 
 ## Interfacing to Carrera track
 
-Here I am standing on the shoulders of giants: using the fantastic Python library [carreralib](https://github.com/tkem/carreralib) by [Thomas Kemmer](https://github.com/tkem), developed using the great work by Stephan Heß aka [slotbaer](https://www.slotbaer.de)).
+Here I am standing on the shoulders of giants: using the fantastic Python library [carreralib](https://github.com/tkem/carreralib) by [Thomas Kemmer](https://github.com/tkem), developed using the great work by Stephan Heß aka [slotbaer](https://www.slotbaer.de).
 
 ## Serving a real-time dashboard over HTTP
 
@@ -28,4 +28,4 @@ I built this in one weekend, so please be forgiving with the many limitations an
 
 Feel free to contribute if you would like this project to be expanded!
 
-Carrera and Carrera AppConnect are registered trademarks of Stadlbauer Marketing + Vertrieb GmbH.
+*Carrera and Carrera AppConnect are registered trademarks of Stadlbauer Marketing + Vertrieb GmbH*
