@@ -14,4 +14,15 @@ Here I am standing on the shoulders of giants: using the fantastic Python librar
 
 For this part I went for [dash](https://dash.plotly.com/), a web server based on Flask that makes the building of real-time sites a piece of cake. I configured an interval of 60 seconds for the display (that tablet or smartphone next to the track showing the real-time data) to update its values, which seems to be easy to take for the Carrera track (1 request per minute). If using multiple displays, you might want to reduce the update interval, otherwise the Carrera track will not cope with simultaneous requests and you might get some error message.
 
+## Limitations
+
+I built this in one weekend, so please be forgiving with the many limitations and optimization possibilities.
+
+* We only have 2 cars, so that is what the app supports today
+* We do not have a pit stop lane yet, so no way to test fuel. That is probably the next thing to do!
+* Real-time optimization: improving the way that graphs are built would probably contribute to the app being more real-time. Still, one second is good enough for me
+* Start traffic light: I want to look at how to build this, but I had no time yet
+
+Feel free to contribute if you would like this project to be expanded!
+
 Carrera and Carrera AppConnect are registered trademarks of Stadlbauer Marketing + Vertrieb GmbH.
